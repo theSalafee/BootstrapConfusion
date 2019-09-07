@@ -1,0 +1,66 @@
+h1 {
+  color: darkgreen;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-bottom: -30px;
+  text-shadow: 1px 1px 1px grey;
+}
+
+hr {
+  border: none;
+  height: 20px;
+  width: 30%;
+  height: 50px;
+  margin-top: 0px;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -75px auto 10px;
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+span {
+  font-size: 19px;
+  font-family: sans-serif;
+  color: darkgreen;
+}
+
+input {
+  margin: 10px;
+  border-radius: 5px;
+  border: solid 1px lightgrey;
+  padding: 5px;
+  background-color: lightblue;
+  box-shadow: 0.5px 0.5px 3px blue;
+  font-size: 13px;
+  width: 50px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  background-color: lightblue;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
+
+#outputText {
+  margin-right: 10px;
+}
+
+#demo {
+  font-size: 30px;
+  color: darkgreen;
+  font-family: sans-serif;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 150px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
