@@ -1,17 +1,17 @@
-row-header {
+.row-header {
     margin:0px auto;
     padding:0px;
 }
 
-row-content {
+.row-content {
     margin:0px auto;
     padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height:400px;
 }
 
-footer {
-    background-color: #D1C4E9;
+.footer {
+    background-color: #008400;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -19,12 +19,16 @@ footer {
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD ;
-    color:floralwhite;
+    background: #008400;
+    color:white;
 }
 
-address{
+.address{
     font-size:80%;
     margin:0px;
     color:#0f0f0f;
+} 
+
+a {
+    color: white;
 }
