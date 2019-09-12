@@ -8,11 +8,13 @@ function myFunction() {
 
     if (x > y && x > z) {
         if (y > z) {
-            console.log(x + ", " + y + ", " + z);
+            console.log(x + ", " + y + ", " + z) 
             document.getElementById("demo").innerHTML = x + ", " + y + ", " + z;
+            alert(x + " ," + y + " ," + z);
         } else {
             console.log(x + ", " + z + ", " + y);
             document.getElementById("demo").innerHTML = x + ", " + z + ", " + y;
+            alert(x + " ," + z + " ," + y);
         }
     } else if (y > x && y > z) {
         if (x > z) {

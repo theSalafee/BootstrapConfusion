@@ -2,7 +2,7 @@
   "name": "git-test",
   "version": "1.0.0",
   "description": "This is the Git and Node basic learning project",
-  "main": "index.html",
+  "main": "numbersort.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
