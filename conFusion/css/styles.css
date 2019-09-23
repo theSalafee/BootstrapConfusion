@@ -11,7 +11,8 @@
 }
 
 .footer {
-    background-color: #008400;
+    background-color: dodgerblue;
+    /* background-color: #008400; */
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -19,7 +20,8 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #008400;
+    background-color: dodgerblue;
+    /* background: #008400; */
     color:white;
     box-shadow: 1px 1px 10px #0f0f0f
 }
@@ -64,4 +66,8 @@ body{
 
 .card {
     box-shadow: 1px 1px 3px 0px #0f0f0f;
+}
+
+.card-header {
+    background-color: #99badd !important;
 }
