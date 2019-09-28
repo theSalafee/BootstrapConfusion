@@ -11,7 +11,9 @@
 }
 
 .footer {
-    background-color: dodgerblue;
+        background-image: linear-gradient(to right, blue, deepskyblue);
+
+    /* background-color: dodgerblue; */
     /* background-color: #008400; */
     margin:0px auto;
     padding: 20px 0px 20px 0px;
@@ -20,7 +22,8 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
+    background-image: linear-gradient(to right, blue, deepskyblue);
     /* background: #008400; */
     color:white;
     box-shadow: 1px 1px 10px #0f0f0f
@@ -33,7 +36,8 @@
 } 
 
 a {
-    color: white;
+    /* color: white; */
+    color: black;
 }
 
 body{
@@ -42,11 +46,14 @@ body{
 }
 
 .breadcrumb {
-    background-color: #512DA8;
+    /* background-color: #512DA8; */
+    background-image: linear-gradient(to left, purple, blueviolet);
 }
 
 .navbar-dark {
-     background-color: #512DA8;
+     /* background-color: #512DA8; */
+         background-image: linear-gradient(to left, purple, blueviolet);
+
      box-shadow: 1px 1px 3px #0f0f0f
 }
 
@@ -69,5 +76,41 @@ body{
 }
 
 .card-header {
-    background-color: #99badd !important;
+        background:
+        radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+        radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+        radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+        radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+        radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+        radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+        radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+        radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+        linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+        linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+        background-color: #300;
+        background-size: 100px 100px;
+        color: white;
+    /* background-color: #99badd !important; */
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 600px;
 }
