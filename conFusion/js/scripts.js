@@ -18,8 +18,12 @@ $(document).ready(function () {
         $('#reservetablemodal').modal('show')
     });
 
-    $("#loginbtn").click(function () {
+    $("#loginbtn").click(function () { 
+        // go to the element of id loginbtn
+        // when clicked run this function
         $('#loginModal').modal('show')
-
+        // got to the element of id loginmodal
+        // show the modal
     });
+
 });
